@@ -1,0 +1,32 @@
+.movies {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 40rem;
+  }
+  
+  .movies ul {
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  .movies li {
+    border: 1px solid #ccc;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+
+  .movies table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .movies td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .movies tr:nth-child(even) {
+    background-color: #dddddd;
+  }
